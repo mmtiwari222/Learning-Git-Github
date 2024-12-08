@@ -1,0 +1,5 @@
+The git keep practice is often used as a workaround to include empty directories in a Git repository. 
+By default, Git does not track empty directories because it only tracks files. 
+To solve this, you can use a placeholder file, commonly named .gitkeep, to ensure the directory is committed.
+In the empty directory create a file with the name of .gitkeep
+
