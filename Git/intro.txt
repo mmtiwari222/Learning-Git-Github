@@ -1,0 +1,25 @@
+Git - Git is a version control system that is used to track changes to your files.
+It is free and open-source software that is available for all OS.
+It is a software that we can install on our computer.
+
+GitHub - GitHub is a web-based hosting service for Git repositories.
+GitHub is a online platform that allows you to store ans share your code with others.
+It is a popular platform for developers to collaborate on projects and share code.
+
+Version Control System(VCS) - Version control system are used to mange the gistory of your code. They allows you to track changes of your files and to collaborate with others.
+VCS are essential for software development.
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Before Git, there are SCCS(Soure Code Control System) was used to manage the code.
+It was very expensive and not very user-friendly.
+
+Some common VCS are Subversion(SVN), CVS and Perforce.
+
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+Steps -
+1. Install Git-
+https://git-scm.com/downloads.
+
+2. Account on GitHub
+https://github.com/
