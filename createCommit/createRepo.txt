@@ -1,0 +1,63 @@
+++++++Creating a repository
+Creating a repository is a process of creating a new folder on your system and initializing it as a git repository.
+
+(git init) ============>
+git init command will create a new folder on your system and initialize it as a git repository. This adds a hidden .git folder to your project.
+
++++++++++++Commit 
+Commit is a way to save your changes to your repository.
+It is a way to record your changes and make them permanent.
+
++++++++Complete git flow
+A complete git flow, along with pushing the code to github looks like this:
+
+(git init)==>[working directory]=============>(git add)==>[staging area]==============>(git commit)==>[repo]=============>(git push)==>[GitHub]
+
+1=> when you want to track a new folder, you first use (git init) command to create a new repository.
+2. That is called working directory, there we do temporary changes.
+3. Then we use (git add) command to move that dir to staging area or staging index (means abou to commit).
+4. Then we use (git commit) command to make them a permanent save point in repository(committed).
+5. Then we use(git push) command to push that repo on GitHub(remote).
+
+
+++++++++Stage
+Stage is a way to tell git to track a particular file or folder.
+You can use the following command to stage a file:
+git init (initializing a repo)
+git add <file> or git add * (move file to staging area)
+git status (check the status of dir or repo)
+git diff (check what is change in the file)
+Here we are initializing the repository and adding a file to the repository.
+Then we can see that the file is now being tracked by git. 
+Currently our files are in staging area, this means that we have not yet committed the changes but are ready to be committed.
+
++++++++++commit
+git commit -m "commit message"(for commit repo)
+git status(check the repo status)
+Here we are committing the changes to the repository. 
+We can see that the changes are now committed to the repository. 
+The -m flag is used to add a message to the commit. 
+This message is a short description of the changes that were made. 
+
+++++++++++++++++++++++++++++++++++++++++++
+Review a Repo History
+Check the commit details=================>
+
+(git log)==>
+give all the commit of repo followed by commitId(hash_id), author, date & commit message.
+
+(git log -2 (-any number))==========>
+give only latest 2 commits.
+
+(git log -p)================>
+give all commits of repo followed by commitId(hash_id), author, date, commit message  and what are the changes in that commit.
+
+(git log --oneline)=================>
+give all commits of repo followed by commitId(hash_id) & commit message.
+
+(git log --stat)===================>
+give all commits of repo followed by commitId(hash_id), author, date, commit message  and name of the file where the commit has performed
+
+(git show <commitId>)==================>
+give all the details of that commit, which commitId we give in the command.
+

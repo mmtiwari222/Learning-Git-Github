@@ -1,0 +1,24 @@
+1. Check Git Version
+(git --version)
+This command will display the version og git installed on your system.
+
+Repository---------
+A repsitory is a collection of files and directories that are stored together.
+It is a way to store and manage your code.
+It allows VCS to track the changes in the project files.
+
+
+// Config Settings-------
+There is a config file that stores all the setings that you have changed, like email, username and what editor you would like to use.
+
+There are some global settings and some repository specific setings.
+
+set global email
+(git config --global user.email "Your-Email")
+set global username
+(git config --global user.name "Your Name")
+
+Now you can check your config settings:
+(git config --list)
+
+
